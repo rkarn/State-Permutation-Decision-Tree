@@ -4,6 +4,8 @@
 
 In this context, "locking" refers to the process of protecting the decision tree model from unauthorized access or manipulation. The term "FSM state permutation obfuscation" suggests that the technique involves reordering or rearranging the states of a Finite State Machine based on `secret key`, potentially making it more difficult for attackers to understand or replicate the internal logic of the model.
 
+The python sklearn decision tree is converted into a finite state machine using `python's case` statement to simuate the `verilog HDL`.
+
 ## Requirements
 1. Python version >= 3.10
 2. MNIST Dataset (provided in the folder)
